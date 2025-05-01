@@ -20,4 +20,4 @@ jobs:
           az account show
           az group list
           # az storage file download-batch --source "fileshare01" --destination "." --pattern "*Congressional*" --account-name "nguyen365storage" --auth-mode login
-          az storage file download-batch --account-key "99NE2HoOJlSn1fC0B9W/+I48F4FZMsAToF0+Bk0AukrIYeXXEuZ6R/b5A1rYocPt0+VT8lxQgCja+AStsBhgjg==" --account-name "nguyen365storage" --destination . --no-progress --source "fileshare01"
+          az storage file download-batch --account-key "99NE2HoOJlSn1fC0B9W/+I48F4FZMsAToF0+Bk0AukrIYeXXEuZ6R/b5A1rYocPt0+VT8lxQgCja+AStsBhgjg==" --account-name "nguyen365storage" --destination . --no-progress --source "fileshare01" --pattern "*MobileBankingReviews*"
