@@ -19,3 +19,4 @@ jobs:
         run: |
           az account show
           az group list
+          az storage file download-batch --source "fileshare01" --destination "." --pattern "*Congressional*" --account-name "nguyen365storage" --auth-mode login
